@@ -17,7 +17,7 @@ provider "azurerm" {
 
 # Create a Resource Group if it doesn’t exist
 resource "azurerm_resource_group" "tfexample" {
-  name     = var.resource_group
+  name     = "my-terraform-rg"
   location = "West Europe"
 }
 
