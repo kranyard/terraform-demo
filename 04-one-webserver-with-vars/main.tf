@@ -140,7 +140,7 @@ resource "azurerm_virtual_machine_extension" "tfexample" {
 
   settings = <<SETTINGS
     {
-      "commandToExecute": "echo 'Hello, World' > index.html ; nohup busybox httpd -f -p ${var.server_port} &"
+      "commandToExecute": "echo 'Hello, World TEST FOR DHL' > index.html ; nohup busybox httpd -f -p ${var.server_port} &"
     }
   SETTINGS
 
